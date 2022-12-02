@@ -1,7 +1,7 @@
 # Portfolio de Romain NGUYEN
 #### Objectifs :
 
-1.Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
+##### 1. Mettre en oeuvre les technologies web pour créer et héberger mon portfolio
 
 [![N|Solid](https://i.imgur.com/gm21xUu.png)](https://imgur.com/)
 
