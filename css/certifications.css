@@ -1,0 +1,23 @@
+.certification-container {
+  display: block;
+  justify-content: center; /* aligne les éléments de la flexbox au milieu */
+  width: 900px;
+  margin-left: 31%;
+}
+
+.certification {
+  border: 1px solid #333;
+  background-color: #eee;
+  margin: 10px 20px; /* réduit l'espacement en haut et en bas à 10 pixels */
+  padding: 20px;
+  text-align: center;
+}
+
+img {
+  width: 30%; /* la largeur de l'image sera de 50% de sa taille initiale */
+  height: auto; /* la hauteur de l'image sera automatiquement ajustée pour conserver les proportions */
+}
+h2 span {
+    color: red;
+}
+

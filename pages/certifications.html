@@ -10,10 +10,10 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
         <link rel="icon" href="favicon.ico">
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-              rel="stylesheet">
+              rel="stylesheet">    
         <!-- css -->
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link href="../css/realisations.css" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet" type="text/css">
+        <link href="../css/certifications.css" rel="stylesheet" type="text/css">
 
         <title>Portfolio Romain Nguyen (BTS SIO 2022)</title>
     </head>
@@ -38,12 +38,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="certifications.html" class="nav-link">
+                            <a href="certifications.html" class="active nav-link">
                                 <span class="fa fa-star"></span> mes certifications
                             </a>
                         </li>
                         <li class="dropdown nav-item">
-                            <a href="#" class="active dropdown-toggle nav-link"
+                            <a href="#" class="dropdown-toggle nav-link"
                                data-toggle="dropdown" role="button">
                                 <span class="fa fa-list-alt"></span> Dernier Projet  <span class="caret"></span>
                             </a>
@@ -75,50 +75,43 @@
 
         <section class="jumbotron text-center">
             <div class="container">
-                <h1 class="jumbotron-heading">Portfolio HTML & CSS</h1>
-                <p class="lead text-muted">Cette activité m'a permis de développer un 
-                    Portfolio ou j'ai pu mettre en pratique ce que j'ai appris en HTML et CSS et à gérer les différente version. J'ai également pu connaître 
-                    les difféente fonction de GIT.
-                </p>
-
-
-                <div class="album py-5 bg-light">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card mb-4 shadow-sm">
-                                    <img class="card-img-top" src="../images/ihmcoach.png" alt="IHM Coach">
-                                    <div class="card-body">
-                                        <p class="card-text">TP Portfolio D'Amélie Pilou</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 shadow-sm">
-                                    <img class="card-img-top" src="../images/MVC.png"
-                                         alt="Structuration MVC">
-                                    <div class="card-body">
-                                        <p class="card-text">Construction de plusieurs branches de travail</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card mb-4 shadow-sm">
-                                    <img class="card-img-top" src="../images/adapters.png" alt="Adapters">
-                                    <div class="card-body">
-                                        <p class="card-text">développer son Portfolio a l'aide des étapes précédentes</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <h1 class="jumbotron-heading">Mes Certifactions</h1> 
+                <div style="border-bottom: 2px solid red;"></div>
             </div>
         </section>
-
+        <div class="certification-container">
+            <div class="certification">
+                <img src="../images/cisco-networking-academy.jpg" alt="Logo de la certification 1">
+                <h2>Certification <span>Cisco Networking Essentials</span></h2>
+                <p>La certification Cisco Networking Essentials (CNE) est une certification professionnelle qui valide les compétences en réseautage de base d'un individu. Elle permet de démontrer que l'individu possède les connaissances et les compétences nécessaires pour configurer, gérer et dépanner des réseaux de petite et moyenne envergure.</p>
+            </div>
+            <div class="certification">
+                <img src="../images/anssi.png" alt="Logo de la certification 2">
+                <h2>Certification <span>MOOC De L'ANSSI</span></h2>
+                <p>Les MOOC (Massive Open Online Courses, ou "cours en ligne
+                    ouverts et massifs" en français) de l'ANSSI (Agence nationale 
+                    de la sécurité des systèmes d'information) sont des cours en ligne 
+                    gratuits proposés par l'ANSSI sur des sujets liés à la sécurité informatique.
+                    Ils sont destinés à un public large et sont accessibles à tous, sans prérequis.
+                    Les MOOC de l'ANSSI couvrent un large éventail de sujets, tels que 
+                    la sécurité des réseaux, la sécurité des systèmes d'exploitation,
+                    la sécurité des bases de données, la sécurité des applications Web, 
+                    la sécurité de l'Internet des objets (IoT), etc.
+                    Les MOOC de l'ANSSI sont conçus pour être accessibles à tous,
+                    quel que soit votre niveau de connaissance en sécurité informatique.
+                    Ils sont organisés en modules de cours et comprennent des vidéos, des
+                    quiz et des exercices pratiques pour vous aider à mettre en pratique 
+                    ce que vous avez appris.</p>
+            </div>
+        </div>
         <footer>
+            <div class="container">
 
+                <hr>
+                <p class="text-center" id="copyright">© Romain NGUYEN 2022</p>
+            </div>
         </footer>
+
 
 
         <!-- Optional JavaScript; choose one of the two! -->
