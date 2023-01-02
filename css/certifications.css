@@ -1,8 +1,8 @@
 .certification-container {
   display: block;
   justify-content: center; /* aligne les éléments de la flexbox au milieu */
-  width: 900px;
-  margin-left: 31%;
+  width: 100%;
+  
 }
 
 .certification {
